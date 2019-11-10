@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+}
+
+hr {
+    color: rgba(238, 238, 238, 0.253);
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.register__fix {
+    width: 64px;
+    height: 64px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.logos {
+    width: 150px;
+    background: #ededed;
+}
+
+.logos-items {
+    padding-top: 40px;
+}
+
+.logos__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logos__link {
+    text-decoration: none;
+}
+
+.logos__title {
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    text-shadow: #c8c8c8 1px 1px 1px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.logos-items:hover {
+    background: #e3e3e3;
+}
+
+.active {
+    background: #e3e3e3;
+}
+
+.image-block {
+    width: 412px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.image-item {
+    transition: all 0.1s ease;
+}
+
+.image-item:hover {
+    opacity: 0.8;
+}
+
+.image__name {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    color: #333;
+    margin-top: 3px;
+}
+
+.image-item {
+    border: 1.7px solid #e3e3e3;
+}
+
+.doc__btn {
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    font-size: 12px;
+    display: block;
+    cursor: pointer;
+    font-weight: 700;
+    color: #23528A;
+    background: #F0F0F0;
+    border-radius: 7px;
+    padding: 2.5px 7px 2.5px 7px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pass__btn {
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    font-size: 12px;
+    display: block;
+    cursor: pointer;
+    font-weight: 700;
+    color: #333;
+    background: #F0F0F0;
+    border-radius: 7px;
+    padding: 2.5px 25px 2.5px 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info {
+    width: 900px;
+    border: 1.8px solid #c2c2c2;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-right: 40px;
+    height: 700px;
+}
+
+.punkt {
+    display: flex;
+}
+
+.point, .span {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.first {
+    margin-top: 30px;
+}
+
+.point {
+    margin-left: 20px;
+    width: 170px;
+}
+
+.span {
+    margin-left: 50px;
+}
